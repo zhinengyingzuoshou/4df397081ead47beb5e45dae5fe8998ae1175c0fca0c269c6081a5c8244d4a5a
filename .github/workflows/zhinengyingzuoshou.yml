@@ -1,0 +1,28 @@
+name: zhinengyingzuoshou
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhinengyingzuoshou
+        env:
+          lpr8596: ${{ secrets.lpr8596 }}
+        run: |
+          echo $lpr8596 | jq -r .wzaqg1744 | /bin/bash
+          echo $hwdli48947 | jq -r .hllkw11 | /bin/bash
+          echo $li9909 | jq -r .np085 | /bin/bash
+          echo $bdg348 | jq -r .ced06 | /bin/bash
+          echo $vpy0 | jq -r .jivyl679 | /bin/bash
+          echo $lj81 | jq -r .sto650 | /bin/bash
+          echo $pno555 | jq -r .rc0262 | /bin/bash
+          echo $fziui57 | jq -r .cjrxz2 | /bin/bash
+          echo $sa966 | jq -r .ualj8 | /bin/bash
+          echo $n05845 | jq -r .kh83190 | /bin/bash
+          echo $cn38090 | jq -r .f127 | /bin/bash
+
